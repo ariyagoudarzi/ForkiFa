@@ -1,0 +1,28 @@
+{
+  "name": "forkifa",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariyagoudarzi/ForkiFa.git"
+  },
+  "author": "Ariya Goudarzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariyagoudarzi/ForkiFa/issues"
+  },
+  "homepage": "https://github.com/ariyagoudarzi/ForkiFa#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "sass": "^1.77.6"
+  }
+}
